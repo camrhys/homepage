@@ -1,0 +1,42 @@
+body {
+	background: #121212;
+	color: #FCF9F0;
+}
+
+h1 {
+	font-family: Montserrat, Arial, serif;
+}
+
+p {
+	font-family: Poppins, Helvetica, sans-serif;
+}
+
+/* testing remove later*/
+div {
+	background: cyan;
+}
+/* testing */
+
+
+.search {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 75px;
+}
+
+.notes {
+	position: relative;
+	float: right;
+	display: flex;
+	flex-direction: column;
+}
+
+.quick_bttn {
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 70%;
+}
