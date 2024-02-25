@@ -11,15 +11,12 @@ p {
 	font-family: Poppins, Helvetica, sans-serif;
 }
 
-/* testing remove later*/
-div {
-	background: cyan;
+.container {
+	position: absolute;
+	background: #212120;
 }
-/* testing */
-
 
 .search {
-	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -28,15 +25,22 @@ div {
 }
 
 .notes {
-	position: relative;
-	float: right;
-	display: flex;
-	flex-direction: column;
+	left: 32px;
+	top: 150px;
+	bottom: 32px;
+	width:350px;
 }
 
 .quick_bttn {
-	position: relative;
-	float: left;
-	width: 250px;
-	height: 70%;
+	right: 32px;
+	top: 150px;
+	bottom: 32px;
+	padding: 15px;
+	width: 320px;
+	display: grid;
+	overflow: scroll;
+	grid-auto-flow: column, wrap;
+	grid-template-columns: 98px 98px 98px;
+	grid-auto-rows: 98px;
+	gap: 13px;
 }
