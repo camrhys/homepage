@@ -44,3 +44,13 @@ p {
 	grid-auto-rows: 98px;
 	gap: 13px;
 }
+
+/* less important, fixes possible future errors. put in 2nd css file to reduce load time? */
+.quick_bttn > button { 
+	overflow: hidden;
+}
+
+.quick_bttn > button > img {
+	width: 64px;
+	height: 64px;
+}
